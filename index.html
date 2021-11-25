@@ -4,19 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
 
   <div class="page">
 
     <header class="header">
-      <div class="logo logo_place_header">
-        <img class="logo__img_header" src="images/logo_place_header.svg" alt="Логотип Яндекса">
-      </div>
+      <img class="logo logo_place_header" src="images/logo_place_header.svg" alt="Логотип Яндекса">
       <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle header__subtitle_position">Какие современные и эффективные подходы
+      <p class="header__subtitle">Какие современные и эффективные подходы
         к обучению вы можете использовать в своей жизни?<a class="header__link" href="#">Узнать &#x2192;</a></p>
       <img class="header__main-illustration" src="images/header-image.png" alt="школьник пришел домой с двойкой">
       <div class="header__square-pic"></div>
@@ -26,9 +24,7 @@
 
       <section class="description">
         <div class="two-columns">
-          <div class="two-columns__brief">
-            <h4 class="two-columns__brief_text">Главные проблемы в обучении</h4>
-          </div>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
@@ -39,7 +35,7 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и фразы</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -78,13 +74,13 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть</h3>
         <a class="feynman__link" href="#">Подробнее &#x2192;</a>
-        <img class="feyman__main-illustration" src="images/feynman.png" alt="Фейнман">
+        <img class="feynman__main-illustration" src="images/feynman.png" alt="Фейнман">
       </section>
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
-        <img class="kaufman__triangle" src="images/kaufman-triangle.svg" alt="треугольник">
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
+        <div class="kaufman__triangle"></div>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -129,33 +125,49 @@
         </ul>
       </section>
     </main>
+
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <div class="logo logo_place_footer">
-            <img class="logo__img_footer" src="images/logo_place_footer.svg" alt="логотип Яндекса">
-          </div>
-          <div class="footer__author">&#9400; 2019. Виктор Абанькин</div>
+        <div class="footer__column footer__column_content_copyright">
+          <img class="logo logo_place_footer" src="images/logo_place_footer.svg" alt="логотип Яндекса">
+          <p class="footer__author">&#9400; 2019. Виктор Абанькин</p>
         </div>
-        <div class="footer__column_content_info">
+        <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <div class="footer__column-links">
-            <a class="footer__column-link" href="#">Главная</a>
-            <a class="footer__column-link" href="#">Концепция</a>
-            <a class="footer__column-link" href="#">Наставники</a>
-          </div>
+          <nav>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">Главная</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Концепция</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Наставники</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="footer__column_content_social">
+        <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <a class="footer__column-link" href="#">
-            <img src="images/facebook_color_white.svg" alt="иконка фейсбук">
-            Facebook</a>
-          <a class="footer__column-link" href="#">
-            <img src="images/vk_color_white.svg" alt="иконка вконтакте">
-            ВКонтакте</a>
-          <a class="footer__column-link" href="#">
-            <img src="images/instagram_color_white.svg" alt="иконка инстаграм">
-            Instagram</a>
+          <nav>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">
+                  <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="иконка фейсбук">
+                  Facebook</a>
+              </li>
+              <li><a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="иконка фейсбук">
+                Facebook</a></li>
+              <li><a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="images/vk_color_white.svg" alt="иконка вконтакте">
+                ВКонтакте</a></li>
+              <li><a class="footer__column-link" href="#">
+                <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="иконка инстаграм">
+                Instagram</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </footer>
