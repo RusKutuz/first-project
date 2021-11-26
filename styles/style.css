@@ -7,17 +7,13 @@
 }
 */
 
-
-* {
+/* обнуляем отступы для всех параграфов и заголовков */
+.paragraph, .header__title, .header3  {
   margin: 0;
   padding: 0;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-}
-
+/* стили страницы */
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -29,6 +25,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* стили хедера */
 .header {
   margin: 0;
   height: 100vh;
