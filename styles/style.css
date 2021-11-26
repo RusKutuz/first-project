@@ -8,7 +8,7 @@
 */
 
 /* обнуляем отступы для всех параграфов и заголовков */
-.paragraph, .header__title, .header3  {
+.paragraph, .header__title, .header2, .header3  {
   margin: 0;
   padding: 0;
 }
