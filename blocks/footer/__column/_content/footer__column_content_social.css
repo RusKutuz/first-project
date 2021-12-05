@@ -1,0 +1,11 @@
+/* стили колонки с линками на соц сети */
+.footer__column_content_social {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
+}

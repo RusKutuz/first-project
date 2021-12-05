@@ -1,0 +1,13 @@
+/*фейнман заголовок*/
+.feynman__title {
+  position: relative;
+  align-self: flex-start;
+  margin: 0 auto;
+  padding: 100px 0 0;
+  width: 648px;
+  z-index: 1;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}

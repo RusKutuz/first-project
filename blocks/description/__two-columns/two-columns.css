@@ -1,0 +1,6 @@
+/*стили текста разделенного на 2 колонки*/
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}

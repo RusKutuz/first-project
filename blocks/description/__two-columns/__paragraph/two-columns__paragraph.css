@@ -1,0 +1,13 @@
+/*стили абзацев во второй колонке*/
+.two-columns__paragraph {
+  padding: 0;
+  margin: 0 0 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+/*стили последнего абзаца во второй колонке*/
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
+}

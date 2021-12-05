@@ -1,0 +1,10 @@
+/*фейнман подзаголовок*/
+.feynman__subtitle {
+  position: relative;
+  margin:0 0 auto;
+  padding: 70px 0 0;
+  z-index: 1;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}

@@ -1,0 +1,11 @@
+/* стили первой колонки с ссылками*/
+.footer__column-links {
+  padding: 0;
+  margin: 0 0 16px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  list-style: none;
+  text-align: left;
+}

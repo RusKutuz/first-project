@@ -1,0 +1,9 @@
+/*стили текста в таблице*/
+.table__text {
+  padding: 0;
+  margin: 20px 0 0;
+  text-align: left;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}

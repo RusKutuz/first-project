@@ -1,0 +1,5 @@
+/* Таблица в блоке Кауфман */
+.table_theme_dark {
+  position: relative;
+  z-index: 2;
+}

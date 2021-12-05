@@ -1,0 +1,6 @@
+/* ссылка подзаголовка */
+.header__link {
+  text-decoration: none;
+  padding-left: 10px;
+  color: #2f80ed;
+}

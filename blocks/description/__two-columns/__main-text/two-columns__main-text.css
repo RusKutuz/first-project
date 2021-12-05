@@ -1,0 +1,5 @@
+/*стили второй колонки с основным текстом*/
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}

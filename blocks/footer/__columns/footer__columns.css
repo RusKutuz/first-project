@@ -1,0 +1,10 @@
+ /* стили таблицы */
+ .footer__columns {
+  display: flex;
+  position: relative;
+  width: 90%;
+  margin: 60px auto 40px;
+  min-height: 100px;
+  justify-content: space-between;
+  align-items: stretch;
+}
