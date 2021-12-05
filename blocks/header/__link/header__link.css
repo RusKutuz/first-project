@@ -3,4 +3,9 @@
   text-decoration: none;
   padding-left: 10px;
   color: #2f80ed;
+  transition: opacity .2s linear;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }

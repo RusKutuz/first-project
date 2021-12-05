@@ -1,4 +1,7 @@
-@import url(../blocks/page/page.css);
+@import url(../blocks/rotation/rotation.css);
+
+@import url(../blocks/vendors/normalize.css);
+@import url(../blocks/root/page.css);
 
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__two-columns/two-columns.css);
@@ -51,8 +54,20 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/techniques/__cards/cards.css);
+@import url(../blocks/techniques/__cards/__item/cards__item.css);
+@import url(../blocks/techniques/__cards/__item/__image/cards__image.css);
+@import url(../blocks/techniques/__cards/__item/__title/cards__title.css);
+@import url(../blocks/techniques/__cards/__item/__description/cards__description.css);
 
 
+
+* {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: red;
+}
 
 
 

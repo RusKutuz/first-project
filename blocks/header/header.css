@@ -13,4 +13,5 @@
   align-items: center;
   margin-bottom: 100px;
   position: relative;
+  overflow: hidden;
 }
