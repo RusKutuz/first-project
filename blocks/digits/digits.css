@@ -1,5 +1,6 @@
 /*Ниже стили для блока digits*/
 
 .digits {
-  margin-bottom: 100px;
+  margin: 0;
+  padding: 100px 0;
 }
