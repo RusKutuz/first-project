@@ -78,12 +78,14 @@
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__title/khan__title.css);
 
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo-zone/__logo/resources__logo.css);
 
-* {
-  outline-width: 1px;
-  outline-style: solid;
-  outline-color: red;
-}
+
+
+
+
 
 
 
